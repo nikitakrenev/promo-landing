@@ -1,0 +1,58 @@
+@import-normalize;
+
+html {
+  --color-text: #111111;
+  --color-button: #FFDD1F;
+  --color-background: #53C8C0;
+  --color-line: #ECECEC;
+
+  --font-normal: 'ProximaNova', sans-serif;
+  --font-bold: 'ProximaNova-Bold', sans-serif;
+}
+
+body {
+  font-family: 'ProximaNova', sans-serif;;
+  color: #111111;
+  background-color: white;
+
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+
+button {
+  border: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('./fonts/ProximaNova-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('./fonts/ProximaNova-Bold.woff') format('woff');
+}

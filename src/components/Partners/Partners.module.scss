@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    margin: 48px 0 24px;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1114px;
+    max-width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .image {
+    margin: 0 24px 40px 24px;
+  }
+
+  @media screen and (max-width: 1204px) {
+    .title {
+      margin: 32px 0 24px;
+    }
+
+    .logos {
+      margin-bottom: 40px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .title {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 648px) {
+    padding: 0 15px;
+  }
+
+  @media screen and (max-width: 575px) {
+    .title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}
+
